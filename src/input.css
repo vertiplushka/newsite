@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@import "./node_modules/preline/variants.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+:root {
+  /*Задний фон*/
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f8f8f8;
+  --background-inputs-color: #f2f2f2;
+
+  /*Кнопки*/
+  --primary-button-color: #686868;
+  --secondary-button-color: #d7d7d7;
+
+  --primary-button-color-hover: #a1a1a1;
+  --secondary-button-color-hover: #8b8b8b;
+
+  --input-button-color: #686868;
+  --input-button-color-hover: #9a9a9a;
+  --input-button-text-color: #ffffff;
+
+  /*Типографика*/
+  --font: "Montserrat", sans-serif;
+
+  --regular-text: 400;
+  --button-text: 500;
+  --semibold-text: 600;
+  --bold-text: 700;
+  --superbold: 800;
+
+  --primary-text-color: #303030;
+  --secondary-text-color: #1e1e1e;
+  --cards-text-color: #000000;
+
+  --links-text-color: #303030;
+  --links-text-color-hovered: #646464;
+}
+
+.bg-primary {
+  background-color: var(--background-primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--background-secondary-color);
+}
+
+.bg-inputs {
+  background-color: var(--background-inputs-color);
+}
+
+.regular-text {
+  font-family: var(--font);
+  font-weight: var(--regular-text);
+}
+
+.button-text {
+  font-family: var(--font);
+  font-weight: var(--button-text);
+}
+
+.semibold-text {
+  font-family: var(--font);
+  font-weight: var(--semibold-text);
+}
+
+.bold-text {
+  font-family: var(--font);
+  font-weight: var(--bold-text);
+}
+
+.superbold-text {
+  font-family: var(--font);
+  font-weight: var(--superbold);
+}
+
+.button-primary {
+  background-color: var(--primary-button-color);
+  color: #ffffff;
+}
+.button-primary:hover {
+  background-color: var(--primary-button-color-hover);
+}
+
+.button-secondary {
+  border-color: var(--secondary-button-color);
+}
+.button-secondary:hover {
+  border-color: var(--secondary-button-color-hover);
+  color: var(--secondary-button-color-hover);
+}
+
+.button-input {
+  background-color: var(--input-button-color);
+  color: var(--input-button-text-color);
+}
+
+.button-input:hover {
+  background-color: var(--input-button-color-hover);
+}
+
+.text-color-primary {
+  color: var(--primary-text-color);
+}
+.text-color-secondary {
+  color: var(--secondary-text-color);
+}
+
+.text-color-link {
+  color: var(--links-text-color);
+}
+.text-color-link:hover {
+  color: var(--links-text-color-hovered);
+  text-decoration: underline;
+}
+
+.text-color-card {
+  color: var(--cards-text-color);
+}
