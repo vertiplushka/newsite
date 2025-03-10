@@ -1,4 +1,4 @@
-1. cd /src
+1. cd src
 2. npm i
 3. npx @tailwindcss/cli -i input.css -o output.css --watch  
 
